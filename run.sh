@@ -10,7 +10,7 @@ mkdir -p work
 
 if [ ! -d work/mastodon.weblate.backup.archive ]; then
     pushd work
-    git clone 
+    git clone git@github.com:luzi82/mastodon.weblate.backup.archive.git
     popd
 fi
 
