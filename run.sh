@@ -4,6 +4,8 @@ set -e
 
 TIMESTAMP=`date +%Y%m%d-%H%M%S`
 
+cd /home/luzi82/mastodon.weblate.backup.script
+
 mkdir -p work
 
 if [ ! -d work/mastodon.weblate.backup.archive ]; then
